@@ -1,0 +1,199 @@
+body{
+    font-family:'poppins' sans-serif;
+    margin: 0;
+}
+#logo_img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.a_nombre{
+    text-decoration: none;
+    color: black;
+}
+.nav_log_link{
+    text-decoration: none;
+    color: black;
+}
+#nav_logo a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+#nav_logo a:hover{
+    color:white;
+
+}
+
+h1{
+  font-size: 2.5rem;
+}
+h1{
+  text-transform: uppercase;
+  font-weight: 900; 
+}
+p{
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+.display-1{
+  font-size: 6rem;
+}
+#showcase{
+  height: 70vh;
+  background-color: beige;
+  padding: 50px 0;
+}
+
+#showcase h1{
+  line-height: 1em;
+}
+
+#showcase .title-outline{
+  color:white;
+  -webkit-text-stroke:3px #000;
+}
+
+.showcase-row{
+  display: flex;
+}
+.showcase-row-title{
+  padding: 50px;
+}
+.showcase-row-image{
+  display: block;
+  margin: 0 auto;
+}
+.showcase-row-image img{
+  height: 500px;
+}
+#Cursos{
+  background-color: red;
+  height: 200px;
+  padding-bottom: 30px;
+}
+.Contenedor_cursos{
+  background-color: blanchedalmond;
+}
+.logo_de_cursos{
+  height: 100px;
+  width: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Contenedor_cursos{
+  display: flex;
+  margin: 0;
+  background-color: beige;
+
+}
+#Cursos .Titulo_skills{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+#titulo_cursos{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 900; 
+}
+.curso_html{
+  padding-left: 400px;
+  padding-top: 8px;
+}
+
+#Proyectos{
+  background-color:red;
+  height: 400px;
+  text-align: center;
+  margin: 0px;
+}
+.Contenedor_proyect{
+  display:flex;
+  
+}
+.juego_duck{
+  height: 300px;
+  width: 300px;
+  padding-left: 20px;
+  background-color: aqua;
+  margin-left: 125px;
+  text-align: center;
+}
+
+
+.compresor_datos{
+  height: 300px;
+  width: 300px;
+  padding-left: 20px;
+  background-color: aqua;
+  margin-left: 100px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.Portafolio{
+  height: 300px;
+  width: 300px;
+  padding-left: 20px;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-right: 125px;
+  text-align: center;
+}
+.img_duck{
+  height: 210px;
+  width: 250px;
+  margin-left: 0px;
+  padding: 0px;
+
+}
+.img_datos{
+  height: 210px;
+  padding-left: 0px;
+  margin: 0px;
+  width: 250px;
+}
+.img_portafolio{
+  height: 200px;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 250px;
+}
+.titulo_pro{
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+    padding: 10px 0px ;
+    }
+}
